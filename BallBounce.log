@@ -1,0 +1,5 @@
+2015-07-21 19:33:39,532 DEBUG 1
+2015-07-21 19:33:39,533 DEBUG 400
+2015-07-21 19:33:39,533 DEBUG <bound method Canvas.winfo_height of <Tkinter.Canvas instance at 0x101fdc638>>
+2015-07-21 19:33:39,533 DEBUG 500
+2015-07-21 19:33:39,533 DEBUG <bound method Canvas.winfo_width of <Tkinter.Canvas instance at 0x101fdc638>>
