@@ -3,3 +3,13 @@
 2015-07-21 19:33:39,533 DEBUG <bound method Canvas.winfo_height of <Tkinter.Canvas instance at 0x101fdc638>>
 2015-07-21 19:33:39,533 DEBUG 500
 2015-07-21 19:33:39,533 DEBUG <bound method Canvas.winfo_width of <Tkinter.Canvas instance at 0x101fdc638>>
+2015-07-21 19:36:38,557 DEBUG 2
+2015-07-21 19:36:38,557 DEBUG 400
+2015-07-21 19:36:38,557 DEBUG <bound method Canvas.winfo_height of <Tkinter.Canvas instance at 0x100c7a638>>
+2015-07-21 19:36:38,557 DEBUG 500
+2015-07-21 19:36:38,557 DEBUG <bound method Canvas.winfo_width of <Tkinter.Canvas instance at 0x100c7a638>>
+2015-07-21 19:40:16,421 DEBUG 2
+2015-07-21 19:40:16,421 DEBUG 400
+2015-07-21 19:40:16,421 DEBUG <bound method Canvas.winfo_height of <Tkinter.Canvas instance at 0x104b276c8>>
+2015-07-21 19:40:16,421 DEBUG 500
+2015-07-21 19:40:16,422 DEBUG <bound method Canvas.winfo_width of <Tkinter.Canvas instance at 0x104b276c8>>
