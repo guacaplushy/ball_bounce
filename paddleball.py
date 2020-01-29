@@ -1,6 +1,6 @@
 #!/usr/local/bin/python
 #
-from Tkinter import *
+from tkinter import *
 import random
 import time
 import logging
@@ -12,7 +12,7 @@ class Ball:
         self.id = canvas.create_oval(10,10,25,25, fill=color)
         self.canvas.move(self.id, 245, 100)
 
-        logger.debug ( self.id )
+        logger.debug(self.id)
 
         starts = [ -3,-2,-1,1,2,3 ]
         random.shuffle(starts)
@@ -20,16 +20,16 @@ class Ball:
         self.y = -3
 
         self.canvas_height = self.canvas.winfo_height()
-        logger.debug( self.canvas_height )
-        logger.debug( canvas.winfo_height )
+        logger.debug(self.canvas_height)
+        logger.debug(canvas.winfo_height)
 
         self.canvas_width = self.canvas.winfo_width()
-        logger.debug( self.canvas_width )
-        logger.debug( canvas.winfo_width )
+        logger.debug(self.canvas_width)
+        logger.debug(canvas.winfo_width)
 
 
-    def hit_paddle( self, pos ):
-        paddle_pos = self.canvas.coords( self.paddle.id)
+    def hit_paddle(self, pos):
+        paddle_pos = self.canvas.coords(self.paddle.id)
         if pos[2] >= paddle_pos[0] and pos[0] <= paddle_pos[2]:
             if pos[3] >= paddle_pos[1] and pos[3] <= paddle_pos[3]:
                 return True
@@ -62,7 +62,7 @@ class Paddle:
 
     def draw(self):
         self.canvas.move(self.id, self.x, 0)
-        pos = self.canvas.coords( self.id )
+        pos = self.canvas.coords(self.id)
         if pos[0] <= 0:
             self.x = 0
         elif pos[2] >= self.canvas_width:
